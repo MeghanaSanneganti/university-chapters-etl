@@ -21,3 +21,9 @@ Clean Data:
 SQL Query:  
 ![SQL Query](screenshots/sql_query.png)
 
+## Run ETL Pipeline
+
+1. Install dependencies: `pip install requests google-cloud-bigquery`
+2. Set up GCP credentials (download service account JSON and set `GOOGLE_APPLICATION_CREDENTIALS`)
+3. Run the ETL: `python etl_pipeline.py`
+4. This will fetch data from the API, load into `du_chapters_raw`, and create `du_chapters_clean`
