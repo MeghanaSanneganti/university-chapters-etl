@@ -12,11 +12,12 @@ du_chapters_etl.sql
 
 ## Screenshots
 
-### SQL Query
-![SQL Query](sql_query.png)
+Raw Data:  
+![Raw Data](screenshots/raw_data.png)  
 
-### Raw Data
-![Raw Data](raw_data.png)
+Clean Data:  
+![Clean Data](screenshots/clean_data.png)  
 
-### Clean Data
-![Clean Data](clean_data.png)
+SQL Query:  
+![SQL Query](screenshots/sql_query.png)
+
