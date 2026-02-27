@@ -100,4 +100,4 @@ Flattened and structured table ready for analysis and reporting.
 ![Clean Data Screenshot](screenshots/clean_data.png)
 
 ### SQL Transformation
-![SQL Transformation Screenshot](screenshots/sql_transformation.png)
+![SQL query Screenshot](screenshots/sql_query.png)
