@@ -112,3 +112,4 @@ The ETL pipeline was tested and run in **Google Colab**:
 
 ### Output
 ![Colab_run_Screenshot](screenshots/colab_run.png)
+![Output_Screenshot](screenshots/output.png)
