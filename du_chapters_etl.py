@@ -35,15 +35,15 @@ def load_raw_data(data):
     table_id = f"{PROJECT_ID}.{DATASET}.{RAW_TABLE}"
 
     job_config = bigquery.LoadJobConfig(
-        source_format=bigquery.SourceFormat.NEWLINE_DELIMITED_JSON,
+        source_format=bigquery.SourceFormat.NEWLINE_DELIMITED_JSON,     #delete when running in colab
         autodetect=True,
         write_disposition="WRITE_TRUNCATE"
     )
 
-    json_lines = [json.dumps(feature) for feature in data["features"]]
+    json_lines = [json.dumps(feature) for feature in data["features"]]      #delete when running in colab
 
     load_job = client.load_table_from_json(
-        json_lines,
+        json_lines,    #replace with data["features"], when running in colab
         table_id,
         job_config=job_config
     )
