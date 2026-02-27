@@ -89,7 +89,15 @@ Flattened and structured table ready for analysis and reporting.
  Run the ETL script:
  python du_chapters_etl.py
 
- ---
+ ## How I Ran This Project
+
+The ETL pipeline was tested and run in **Google Colab**:
+
+1. Uploaded `key.json` (GCP service account key) to Colab.
+2. Set Google credentials in the environment.
+3. Installed required packages (`requests`, `google-cloud-bigquery`).
+4. Ran `du_chapters_etl.py`.
+
 
 ## Screenshots
 
@@ -101,3 +109,6 @@ Flattened and structured table ready for analysis and reporting.
 
 ### SQL Transformation
 ![SQL query Screenshot](screenshots/sql_query.png)
+
+### Output
+![output_screenshot].(screenshots/output.png)
