@@ -111,4 +111,4 @@ The ETL pipeline was tested and run in **Google Colab**:
 ![SQL query Screenshot](screenshots/sql_query.png)
 
 ### Output
-![Colab_Run_Screenshot](screenshots/colab_run.png)
+![Collab_run_Screenshot](screenshots/collab_run.png)
